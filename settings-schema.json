@@ -1,0 +1,20 @@
+{
+    "layout": {
+        "type": "header",
+        "description": "Border Appearance"
+    },
+    "border-width": {
+        "type": "spinbutton",
+        "default": 2,
+        "min": 1,
+        "max": 10,
+        "step": 1,
+        "units": "px",
+        "description": "Border Thickness"
+    },
+    "border-color": {
+        "type": "colorchooser",
+        "default": "rgba(53, 132, 228, 1.0)",
+        "description": "Border Color"
+    }
+}

@@ -1,0 +1,8 @@
+{
+    "url": "https://github.com/FreyaNile/mint-focus@freyanile",   
+    "uuid": "mint-focus@freyanile",
+    "name": "Mint Focus",
+    "icon": "icon.png",
+    "description": "Draws a thin, compositor-level outline around the currently active window.",
+    "cinnamon-version": [ "5.0", "5.2", "5.4", "5.6", "5.8", "6.0", "6.2", "6.4" ]
+}
