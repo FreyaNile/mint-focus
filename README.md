@@ -1,6 +1,6 @@
-# Mint Focus
+# <img src="icon.png" height="24" style="vertical-align: middle;"> Mint Focus
 
-<img src="icon.png" height="24" style="vertical-align: middle;"> **Mint Focus** is a Cinnamon desktop extension that draws a thin, compositor-level outline around the currently active window, making it easy to identify which window has focus at a glance.
+**Mint Focus** is a Cinnamon desktop extension that draws a thin, compositor-level outline around the currently active window, making it easy to identify which window has focus at a glance.
 
 ![Example](Example.png)
 
