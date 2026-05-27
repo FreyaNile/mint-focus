@@ -1,10 +1,6 @@
 {
     "url": "https://github.com/FreyaNile/mint-focus",   
-<<<<<<< HEAD
     "uuid": "mint-focus",
-=======
-    "uuid": "mint-focus@freyanile",
->>>>>>> 9f9bd51a3349cc8918cf6329db297a73550cfca7
     "name": "Mint Focus",
     "icon": "icon.png",
     "description": "Draws a thin, compositor-level outline around the currently active window.",
