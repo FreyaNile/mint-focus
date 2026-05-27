@@ -1,5 +1,9 @@
 const Clutter = imports.gi.Clutter;
 const St = imports.gi.St;
+<<<<<<< HEAD
+=======
+const Main = imports.ui.main;
+>>>>>>> 9f9bd51a3349cc8918cf6329db297a73550cfca7
 const Meta = imports.gi.Meta;
 const Settings = imports.ui.settings;
 
@@ -14,7 +18,11 @@ let config = {
 };
 
 function init(metadata) {
+<<<<<<< HEAD
     settings = new Settings.ExtensionSettings(config, 'mint-focus', metadata.uuid);
+=======
+    settings = new Settings.ExtensionSettings(config, 'mint-focus@freyanile', metadata.uuid);
+>>>>>>> 9f9bd51a3349cc8918cf6329db297a73550cfca7
     settings.bind('border-width', 'borderWidth', onSettingsChanged);
     settings.bind('border-color', 'borderColor', onSettingsChanged);
 }
@@ -45,7 +53,11 @@ function updateBorder() {
             reactive: false
         });
         onSettingsChanged(); 
+<<<<<<< HEAD
         global.window_group.add_actor(borderActor);
+=======
+        Main.uiGroup.add_actor(borderActor);
+>>>>>>> 9f9bd51a3349cc8918cf6329db297a73550cfca7
     }
 
     borderActor.set_position(rect.x, rect.y);

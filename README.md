@@ -11,6 +11,7 @@
 - **Lightweight**: Built using Clutter and St for minimal system impact.
 
 ## Installation
+<<<<<<< HEAD
 
 ### Manual Installation
 1. Download the repository as a ZIP or clone it.
@@ -25,6 +26,11 @@ mkdir -p ~/.local/share/cinnamon/extensions/
 git clone git@github.com:FreyaNile/mint-focus.git ~/.local/share/cinnamon/extensions/mint-focus
 ```
 *Note: After cloning, you still need to enable it in the System Settings.*
+=======
+1. Copy the `mint-focus@freyanile` folder to `~/.local/share/cinnamon/extensions/`.
+2. Open **System Settings** -> **Extensions**.
+3. Find **Mint Focus** and click the **(+)** button to enable it.
+>>>>>>> 9f9bd51a3349cc8918cf6329db297a73550cfca7
 
 ## Configuration
 You can customize the appearance via the extension settings:
